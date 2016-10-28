@@ -6,7 +6,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-
+<link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Ping-Pong</title>
 
   </head>
@@ -15,18 +15,27 @@
       <div class="jumbotron">
         <h1>Ping! Pong!</h1><br>
       </div>
-
+      <h1>Let's play!</h1>
+      <h2>Rules:</h2>
+      <p>Ping Pong will count up to your number with the following exceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 become "Ping"</li>
+        <li>Numbers divisible by 5 become "Pong"</li>
+        <li>Numbers divisible by 15 become "Ping-Pong"</li>
+      </ol>
       <form id="ppForm">
+
         <div class="form-group">
           <label for="instruction">Enter your number here:</label><br>
           <input id="enterNumber" type="text">
         </div><br>
-      <button type="submit" class="btn">PING THE PONG!</button>
+      <button type="submit" class="btn" id = button><em>PING THE PONG!<em></button>
       </form><br>
       <div id="result">
-        <label><em>Here we go!</em></label>
+        
         <ul id="resultDisplay"></ul>
       </div>
+
     </div>
   </body>
 </html>
