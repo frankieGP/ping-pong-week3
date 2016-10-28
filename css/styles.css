@@ -7,7 +7,6 @@ body {
 button {
     background-color: rgb(151, 148, 152);
     border-color: rgb(28, 189, 121);
-
 }
 em {
   color: white;
@@ -20,5 +19,4 @@ em {
 }
 .container {
   margin-left: 26em;
-  margin-top: 4em;
 }
