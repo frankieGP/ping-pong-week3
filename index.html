@@ -6,21 +6,26 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+
     <title>Ping-Pong</title>
+
   </head>
   <body>
-    <div class="container"><br><br>
-      <h1>Ping! Pong!</h1><br>
-      <form id="pingpong">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Ping! Pong!</h1><br>
+      </div>
+
+      <form id="ppForm">
         <div class="form-group">
           <label for="instruction">Enter your number here:</label><br>
           <input id="enterNumber" type="text">
         </div><br>
-      <button type="submit" class="btn">PING! PONG!!</button>
+      <button type="submit" class="btn">PING THE PONG!</button>
       </form><br>
-      <div class="result">
-        <label>Here we go</label>
-        <p><span id="resultDisplay"></span></p>
+      <div id="result">
+        <label><em>Here we go!</em></label>
+        <ul id="resultDisplay"></ul>
       </div>
     </div>
   </body>
