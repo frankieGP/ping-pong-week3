@@ -1,5 +1,5 @@
 // back-end logic
-function pingpongStart(userInput){
+function pingStart(userInput){
 var result = [];
 for (var i = 1; i <= userInput; i++){
   if ((i % 15) === 0){
@@ -19,7 +19,7 @@ $(document).ready(function() {
   $("form#ppForm").submit(function(event) {
     $("#result").empty();
     var userInput = parseInt($("input#enterNumber").val());
-    var result = pingpongStart(userInput);
+    var result = pingStart(userInput);
     result.forEach(function(output) {
     $("#result").append("<li>" + output + "</li>");
     event.preventDefault();
